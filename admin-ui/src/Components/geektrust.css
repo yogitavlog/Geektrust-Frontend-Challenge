@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.header {
+    width: 80vw;
+    border-radius: 60px;
+    padding: 0.2rem 0.2rem 0.2rem 2rem;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 0.85rem;
+    color: #000000;
+    
+}
+
+.header input::placeholder {
+    color: #000000;
+}
